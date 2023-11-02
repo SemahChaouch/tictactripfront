@@ -1,0 +1,32 @@
+/* JustifyText.css */
+.text-input {
+    width: 95%; /* Adjust the width as needed */
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+    height: 200px;  }
+  
+
+  .justify-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .center-button {
+    text-align: center;
+  
+  }
+  .justified-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .justified-text{
+    width: 55%; 
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+    height: 350px; 
+  };
+  
