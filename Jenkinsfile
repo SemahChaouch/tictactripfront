@@ -20,7 +20,7 @@ pipeline {
                 script {
                     sh 'docker stop frontend'
                     sh 'docker rm frontend'
-                    sh 'docker run -d -p 80:80 --name frontend tictactripfront'
+                    sh 'docker run -d -p 3006:3006 --name frontend tictactripfront'
 
 
                 }
