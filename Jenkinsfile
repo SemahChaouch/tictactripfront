@@ -9,7 +9,7 @@ pipeline {
                     git 'https://github.com/SemahChaouch/tictactripfront'
                     git branch: 'master', url: 'https://github.com/SemahChaouch/tictactripfront'
                     sh 'npm install'
-                    sh 'docker build -t tictactripFront .'
+                    sh 'docker build -t tictactripfront .'
 
                 }
             }
@@ -20,7 +20,7 @@ pipeline {
                 script {
                     sh 'docker stop frontend'
                     sh 'docker rm frontend'
-                    sh 'docker run -d -p 80:80 --name frontend tictactripFront'
+                    sh 'docker run -d -p 80:80 --name frontend tictactripfront'
 
 
                 }
