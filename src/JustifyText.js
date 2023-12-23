@@ -14,7 +14,7 @@ const JustifyText = ({ token }) => {
   let config = {
     method: 'post',
     maxBodyLength: Infinity,
-    url: 'http://localhost:3000/api/justify',
+    url: '20.216.159.129:3000/api/justify',
     headers: { 
       'Content-Type': 'text/plain', 
       'Authorization': 'Bearer ' + token,

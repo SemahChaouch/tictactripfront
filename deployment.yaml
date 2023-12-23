@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: front
-        image: tictactrip.azurecr.io/samples/front2:latest
+        image: tictactrip.azurecr.io/samples/front:v3
         ports:
         - containerPort: 3006
 ---
